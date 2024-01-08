@@ -1,0 +1,33 @@
+name: DungeonsRaid
+main: ennesima.Main
+version: 1.0 (beta)
+commands:
+  dungeons:
+    description: Dungeons main command
+    usage: /dungeons [key]
+  dk:
+    description: Go to a dungeon
+    usage: /dk
+  level:
+    description: Get item name in Hand
+    usage: /dk
+permissions:
+  dungeons.openkey:
+    description: Allows to open a dungeon with the key in hand
+    default: not op
+  dungeons.admin.give:
+    description: Allows to give a key to a player
+    default: op
+  dungeons.admin.setspawn:
+    description: Allows to setspawn to any dungeon
+    default: op
+  dungeons.admin.create:
+    description: Allows to create a new dungeon world
+    default: op
+  dungeons.admin.teleport:
+    description: Allows to self teleport to a dungeon without a key
+    default: op
+  dungeons.build.setNextLevel:
+    description: Allows to set the next level with a trigger after a level in a dungeon
+    default: op
+softdepend: [PlaceholderAPI]

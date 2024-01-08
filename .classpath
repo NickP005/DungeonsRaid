@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/plugins/Spigot/Spigot-API/target/spigot-api-1.15.2-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/launcher/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/PlaceholderAPI-2.10.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Downloads/spigot-1.15.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
